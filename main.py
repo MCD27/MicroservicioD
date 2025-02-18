@@ -28,6 +28,10 @@ def get_estudiantes(db: Session = Depends(get_db)):
 # Agregar un nuevo estudiante
 @app.post("/estudiantes/")
 def create_estudiante(nombre: str, carrera: str, semestre: int, profesor_id: int, db: Session = Depends(get_db)):
+    profesor = db.query(models.Profesor).filter(models.Profesor.id == profesor_id).first()
+    if not profesor:
+        raise HTTPException(status_code=400, detail="El profesor_id no es válido")
+    
     nuevo_estudiante = models.Estudiante(nombre=nombre, carrera=carrera, semestre=semestre, profesor_id=profesor_id)
     db.add(nuevo_estudiante)
     db.commit()
