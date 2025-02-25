@@ -19,7 +19,7 @@ _Instalación de FASTAPI._
 ![Paso 3](IMAGENES/paso3.png)
 
 ### Paso 4  
-_Instalación de uviconr._  
+_Instalación de uvicorn._  
 ![Paso 4](IMAGENES/paso4.png)
 
 ### Paso 5  
@@ -30,118 +30,125 @@ _Se ejecuta una aplicación FASTAPI usando uvicorn, un servidor ASGI._
 _Por medio del comando se instalan cuatro paquetes esenciales para desarrollar una API con FastAPI y conectarla a una base de datos PostgreSQL._  
 _FASTAPI: Framework web moderno y rápido para construir APIs en Python._  
 _UVICORN: Servidor ASGI para ejecutar aplicaciones FastAPI._  
-_Por medio del comando se instalan cuatro paquetes esenciales para desarrollar una API con FastAPI y conectarla a una base de datos PostgreSQL.._  
-_Por medio del comando se instalan cuatro paquetes esenciales para desarrollar una API con FastAPI y conectarla a una base de datos PostgreSQL.._  
+_sqlalchemy: ORM (Object Relational Mapper) que permite interactuar con bases de datos mediante Python en lugar de SQL puro._  
+_psycopg2 → Driver que permite a SQLAlchemy conectarse y comunicarse con PostgreSQL._  
 ![Paso 6](IMAGENES/paso6.png)
 
 ### Paso 7  
-_Descripción del paso 7 aquí._  
+_Instalación de postgres._  
 ![Paso 7](IMAGENES/paso7.png)
 
 ### Paso 8  
-_Descripción del paso 8 aquí._  
+_Creo la base de datos y le doy autoria al usuario jhon_dev._  
 ![Paso 8](IMAGENES/paso8.png)
 
 ### Paso 9  
-_Descripción del paso 9 aquí._  
+_Instalo alembic para las migraciones._  
 ![Paso 9](IMAGENES/paso9.png)
 
 ### Paso 10  
-_Descripción del paso 10 aquí._  
+_Se ejecuta el comando que inicializa Alembic, una herramienta para gestionar migraciones en bases de datos con SQLAlchemy._  
 ![Paso 10](IMAGENES/paso10.png)
 
 ### Paso 11  
-_Descripción del paso 11 aquí._  
+_Se ejecuta el comando que inicializa Alembic, una herramienta para gestionar migraciones en bases de datos con SQLAlchemy._  
 ![Paso 11](IMAGENES/paso11.png)
 
 ### Paso 12  
-_Descripción del paso 12 aquí._  
+_Este comando crea un nuevo archivo de migración con los cambios detectados en el modelo de la base de datos definido con SQLAlchemy._  
+_alembic revision: Crea un nuevo archivo de migración._ 
+_autogenerate: Genera automáticamente los cambios comparando los modelos de SQLAlchemy con la base de datos.._ 
+_-m "Inicializar tablas": Agrega un mensaje descriptivo a la migración, facilitando su identificación.._ 
 ![Paso 12](IMAGENES/paso12.png)
 
 ### Paso 13  
-_Descripción del paso 13 aquí._  
+_Verificación de la tabla estudiantes._  
 ![Paso 13](IMAGENES/paso13.png)
 
 ### Paso 14  
-_Descripción del paso 14 aquí._  
+_Verificación de la tabla profesores._  
 ![Paso 14](IMAGENES/paso14.png)
 
 ### Paso 15  
-_Descripción del paso 15 aquí._  
+_GET POSTMAN profesores._  
 ![Paso 15](IMAGENES/paso15.png)
 
 ### Paso 16  
-_Descripción del paso 16 aquí._  
+_POST POSTMAN profesores._  
 ![Paso 16](IMAGENES/paso16.png)
 
 ### Paso 17  
-_Descripción del paso 17 aquí._  
+_POST POSTMAN estudiantes._  
 ![Paso 17](IMAGENES/paso17.png)
 
 ### Paso 18  
-_Descripción del paso 18 aquí._  
+_PUT POSTMAN profesores._  
 ![Paso 18](IMAGENES/paso18.png)
 
 ### Paso 19  
-_Descripción del paso 19 aquí._  
+_Confirmación del PUT._  
 ![Paso 19](IMAGENES/paso19.png)
 
 ### Paso 20  
-_Descripción del paso 20 aquí._  
+_DELETE POSTMAN estudiantes._  
 ![Paso 20](IMAGENES/paso20.png)
 
 ### Paso 21  
-_Descripción del paso 21 aquí._  
+_Confirmación del DELETE._  
 ![Paso 21](IMAGENES/paso21.png)
 
 ### Paso 22  
-_Descripción del paso 22 aquí._  
+_Ejecuto el comando para guardar las depencias del programa._  
 ![Paso 22](IMAGENES/paso22.png)
 
 ### Paso 23  
-_Descripción del paso 23 aquí._  
+_DOCKERFILE._  
 ![Paso 23](IMAGENES/paso23.png)
 
 ### Paso 24  
-_Descripción del paso 24 aquí._  
+_docker-compose.yml._  
 ![Paso 24](IMAGENES/paso24.png)
 
 ### Paso 25  
-_Descripción del paso 25 aquí._  
+_docker-compose.yml._  
 ![Paso 25](IMAGENES/paso25.png)
 
 ### Paso 26  
-_Descripción del paso 26 aquí._  
+_ Crear mi cuenta en Render y conectarla con git hub._  
 ![Paso 26](IMAGENES/paso26.png)
 
 ### Paso 27  
-_Descripción del paso 27 aquí._  
+_Conecto Render con el código subido a mi repositorio._  
 ![Paso 27](IMAGENES/paso27.png)
 
 ### Paso 28  
-_Descripción del paso 28 aquí._  
+_ Le asigno un nombre al sitio web._  
 ![Paso 28](IMAGENES/paso28.png)
 
 ### Paso 29  
-_Descripción del paso 29 aquí._  
+_ Escribo el build command para la instalación de las dependencias y el start 
+command para inicializar la API. Después de esto se ejecuta el programa.._  
 ![Paso 29](IMAGENES/paso29.png)
 
 ### Paso 30  
-_Descripción del paso 30 aquí._  
+_ Creo la base de datos que va a conectar con el servicio de Render._  
 ![Paso 30](IMAGENES/paso30.png)
 
 ### Paso 31  
-_Descripción del paso 31 aquí._  
+_ Relaciono la base de datos con el servicio dentro del apartado de Enviroment._  
 ![Paso 31](IMAGENES/paso31.png)
 
 ### Paso 32  
-_Descripción del paso 32 aquí._  
+_Al darme un error en la conexión con la base de datos, volví a configurar el 
+código URL en el database.py y alembic.ini
+._  
 ![Paso 32](IMAGENES/paso32.png)
 
 ### Paso 33  
-_Descripción del paso 33 aquí._  
+_ Vuelvo a inicializar el programa agregando el comando alembic upgrade head 
+para que se hagan las migraciones.._  
 ![Paso 33](IMAGENES/paso33.png)
 
 ### Paso 34  
-_Descripción del paso 34 aquí._  
+_ Por ultimo probe con Postman que se pudieran hacer las peticiones de datos._  
 ![Paso 34](IMAGENES/paso34.png)
