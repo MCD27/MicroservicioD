@@ -7,27 +7,31 @@ Aquí se muestran las imágenes que explican el proceso paso a paso.
 ## 📌 Instrucciones con Imágenes
 
 ### Paso 1  
-_Descripción del paso 1 aquí._  
+_Se crea la carpeta donde se va estar el microservicio y se hace un git init para tener un control de versiones._  
 ![Paso 1](IMAGENES/Paso1.png)
 
 ### Paso 2  
-_Descripción del paso 2 aquí._  
+_Se crea el entorno virtual y se activa el mismo._  
 ![Paso 2](IMAGENES/paso2.png)
 
 ### Paso 3  
-_Descripción del paso 3 aquí._  
+_Instalación de FASTAPI._  
 ![Paso 3](IMAGENES/paso3.png)
 
 ### Paso 4  
-_Descripción del paso 4 aquí._  
+_Instalación de uviconr._  
 ![Paso 4](IMAGENES/paso4.png)
 
 ### Paso 5  
-_Descripción del paso 5 aquí._  
+_Se ejecuta una aplicación FASTAPI usando uvicorn, un servidor ASGI._  
 ![Paso 5](IMAGENES/paso5.png)
 
 ### Paso 6  
-_Descripción del paso 6 aquí._  
+_Por medio del comando se instalan cuatro paquetes esenciales para desarrollar una API con FastAPI y conectarla a una base de datos PostgreSQL._  
+_FASTAPI: Framework web moderno y rápido para construir APIs en Python._  
+_UVICORN: Servidor ASGI para ejecutar aplicaciones FastAPI._  
+_Por medio del comando se instalan cuatro paquetes esenciales para desarrollar una API con FastAPI y conectarla a una base de datos PostgreSQL.._  
+_Por medio del comando se instalan cuatro paquetes esenciales para desarrollar una API con FastAPI y conectarla a una base de datos PostgreSQL.._  
 ![Paso 6](IMAGENES/paso6.png)
 
 ### Paso 7  
